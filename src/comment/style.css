@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+.m-container {
+  padding: 10px;
+}
+
+.m-container ul {
+  display: flex;
+}
+
+.m-container .list {
+  height: 400px;
+  overflow: scroll;
+}
+
+.m-container ul li:first-child {
+  width: 80px;
+}
+
+.m-container ul li:first-child img {
+  width: 100%;
+}
+
+.m-container ul li:nth-child(2) {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.m-container ul li:last-child {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  width: 100%;
+}
