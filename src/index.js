@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Tabs from './Tabs/Tabs'
+import Routes from './basic/Routes'
+//import './style/app.scss'
 
-// import CommentBox from './comment/CommentBox'
 
-ReactDOM.render(<Tabs />, document.getElementById('root'))
+ReactDOM.render(<Routes />, document.getElementById('root'))
