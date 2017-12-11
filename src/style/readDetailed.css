@@ -1,0 +1,38 @@
+#title{
+  overflow: hidden;
+  padding: 10px;
+}
+
+#title image{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  float: left;
+}
+
+#author_name{
+  color: #86BEF8;
+  font-size: 12px;
+  display: block;
+}
+
+#author{
+  color: #999;
+  display: block;
+  font-size: 12px;
+}
+
+#content{
+  padding: 20px;
+}
+
+#article_title{
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+#article_content{
+  font-size: 12px;
+  color: #666;
+}

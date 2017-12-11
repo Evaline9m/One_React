@@ -12,39 +12,30 @@ html, body {
   height: 100%;
 }
 
-.m-container {
-  padding: 10px;
+a{
+	color: #000;
+	text-decoration: none;
 }
 
-.m-container ul {
-  display: flex;
+#root{
+	height: 100%;
 }
 
-.m-container .list {
-  height: 400px;
-  overflow: scroll;
+#index{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
-.m-container ul li:first-child {
-  width: 80px;
+.head{
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
 }
 
-.m-container ul li:first-child img {
-  width: 100%;
-}
-
-.m-container ul li:nth-child(2) {
-  flex: 1;
-  padding-left: 10px;
-}
-
-.m-container ul li:last-child {
-  width: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-textarea {
-  width: 100%;
+#content{
+	flex: 1;
+	overflow: scroll;
 }

@@ -1,0 +1,66 @@
+.swiper img{
+	width: 100%;
+}
+
+.articles-swiper{
+	padding:20px;
+	border:1px solid #ebebeb;
+	border-radius:3px;
+	margin:15px;
+}  
+  
+li{
+  padding: 10px 0;
+}
+
+text{
+  display: block;
+}
+
+.type{
+  float:right;
+  font-size:10px;
+  font-weight:200;
+  padding:5px 5px 5px 8px;
+  color:#89bdf7;
+  border:1px solid #89bdf7;
+  border-radius:5px;
+  letter-spacing:3px;
+  margin-top:-27px;
+}
+
+.title{
+  font-size: 16px;
+  line-height: 30px;
+  width:70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.author{
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.guide{
+    font-size: 12px;
+    line-height: 20px;
+    text-indent: 2em;
+}  
+  
+
+ .ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+
+#aaa{
+	height: 200px;
+	width: 100%;
+	background: #ff0;
+}

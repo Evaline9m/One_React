@@ -4,7 +4,7 @@ class Page404 extends React.Component {
 
   render() {
     return (
-      <div>page not found</div>
+      <div>404</div>
     )
   }
 }

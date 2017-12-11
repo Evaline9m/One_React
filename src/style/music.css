@@ -1,0 +1,138 @@
+.music {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border-top: 1px solid #cdcdcd;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+swiper{
+  flex: 1;  
+  overflow:scroll;
+}
+
+swiper-item{ 
+   overflow:scroll; 
+}
+
+view {
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+}
+
+#music{
+  flex: 1;
+}
+
+#music #fixed img{
+   height: 330px; 
+   width: 100%;
+} 
+
+#music #fixed #absolute{
+	padding: 10px;
+  position:relative;
+  width:80%;
+  margin:0 10%;
+  background:#fff;
+  top:-65px;
+  border-radius:5px;
+  border:1px solid #cdcdcd;
+  z-index:12;
+  overflow:hidden;
+}
+
+#music #fixed #absolute #left{
+  float: left;
+  width: 70%;
+}
+
+#music #fixed #absolute #left view{
+  
+}
+
+#music #fixed #absolute #left img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  float: left;
+}
+
+
+#myAudio{
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+#music #fixed #absolute #left text{
+  font-size:12px;
+  line-height:14px;
+  color:#666;
+  display:inline-block;
+  padding:0 5px;
+}
+
+#music #fixed #absolute #left #Title{
+  color: #000;
+  font-size: 14px;
+  display: block;
+}
+
+#music #fixed #absolute #left #author_name{
+  color: #86BEF8;
+}
+
+#music #fixed #absolute #right{
+  float: right;
+  width: 30%;
+}
+
+#music #fixed #absolute #right img{
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 20px;
+}
+
+#music #fixed #absolute #right text{
+  color: #666;
+  font-size: 12px;
+  
+}
+
+#change{
+  margin-top: -20px;
+}
+
+#story,#lyric,#info{
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#title{
+  border-bottom: 1px solid #cdcdcd;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#title image{
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin-top:-26px;
+}
+
+.music-content-body{
+  font-size: 12px;
+  padding-top: 20px; 
+}
+
+.music-content-body .story-author{
+  color: #86BEF8;  
+}

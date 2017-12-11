@@ -87,10 +87,10 @@ module.exports = function(proxy, allowedHost) {
     public: allowedHost,
     proxy: {
       '/api': {
-        target: 'https://api.douban.com/',
+        target: 'http://v3.wufazhuce.com:8000',
         changeOrigin: true,
         pathRewrite: {
-          '^/api': ''
+          
         }
       },
       '/vip': {
